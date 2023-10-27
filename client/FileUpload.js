@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { createClient } from '@supabase/supabase-js';
 
 // Initialize Supabase client
-const supabase = createClient('https://tphgqpefnrtrubfrdvox.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRwaGdxcGVmbnJ0cnViZnJkdm94Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY5ODA4MTg4NiwiZXhwIjoyMDEzNjU3ODg2fQ.5z4UlmgHhFMiqo-lrWukvcBjOBnPe_JUErOLFnmv680');
+const supabase = createClient('https://tphgqpefnrtrubfrdvox.supabase.co', ' API KEY');
 
 const FileUpload = () => {
   const [file, setFile] = useState(null);
